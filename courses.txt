@@ -1,0 +1,26 @@
+3
+
+CS102
+ComsP
+8
+3
+Ins1 Ins2 Ins3 
+1
+180010027 
+
+EE102
+Basic Electronics
+7
+1
+Ins4 
+1
+180010002 
+
+PH102
+Basic Physics
+6
+1
+Ins5 
+2
+180010034 180020087 
+
