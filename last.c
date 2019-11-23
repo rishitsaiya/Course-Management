@@ -32,38 +32,38 @@ struct course {
 };
 
 //----------------------------------------
-/*done*/struct student *students;
-/*done*/struct instructor *instructors;
-/*done*/struct course *courses;
+struct student *students;
+struct instructor *instructors;
+struct course *courses;
 //---------------------------------------
-/*done*/void load_records();
-/*done*/void load_students();
-/*done*/void load_instructors();
-/*done*/void load_courses();
+void load_records();
+void load_students();
+void load_instructors();
+void load_courses();
 //----------------------------------------
-/*done*/void print_students();
-/*done*/void print_student(struct student s);
-/*done*/void add_student(struct student s);
-/*done*/void addstudent(char *rollno, char *name,int b,int semester,int courses ,char** course_codes);
-/*done*/void deletestudent();
-/*done*/void modifystudent();
-/*done*/void printmodifystudent();
+void print_students();
+void print_student(struct student s);
+void add_student(struct student s);
+void addstudent(char *rollno, char *name,int b,int semester,int courses ,char** course_codes);
+void deletestudent();
+void modifystudent();
+void printmodifystudent();
 //-----------------------------------------
-/*done*/void print_instructors();
-/*done*/void print_instructor(struct instructor i);
-/*done*/void add_instructor(struct instructor i);
-/*done*/void addinstructor(char *id,char *name,int ncourses,char** course_codes);
-/*done*/void deleteinstructor();
-/*done*/void modifyinstructor();
-/*done*/void printmodifyinstructor();
+void print_instructors();
+void print_instructor(struct instructor i);
+void add_instructor(struct instructor i);
+void addinstructor(char *id,char *name,int ncourses,char** course_codes);
+void deleteinstructor();
+void modifyinstructor();
+void printmodifyinstructor();
 //-----------------------------------
-/*done*/void print_courses();
-/*done*/void print_course(struct course c);
-/*done*/void add_course(struct course c);
-/*done*/void addcourse(char *code, char *name, int credits, int ninstructors, char **instructors_ids, int nstudents, char **student_rollnos);
-/*done*/void deletecourse();
-/*done*/void modifycourse();
-/*done*/void printmodifycourse();
+void print_courses();
+void print_course(struct course c);
+void add_course(struct course c);
+void addcourse(char *code, char *name, int credits, int ninstructors, char **instructors_ids, int nstudents, char **student_rollnos);
+void deletecourse();
+void modifycourse();
+void printmodifycourse();
 //-----------------------------------
 
 FILE *fps;
